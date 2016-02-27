@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Google</title>
+    <link rel="icon" type="image/png" href="assets/images/google_fav.png">
     <link rel="stylesheet" href="assets/stylesheets/main.css">
   </head>
   <body>
@@ -17,21 +18,25 @@
       </nav>
     </header>
     <section id="search-box">
-      <img src="assets/images/google_logo.png" alt="Google Logo">
+      <img id="google-logo" src="assets/images/google_logo.png" alt="Google Logo">
       <form action="demo_form.asp">
-        <input type="text" name="search">
-        <input type="submit" value="Google Search">
-        <input type="submit" value="I'm Feeling Lucky">
+        <input id="google-search" type="text" name="search" placeholder="Search Google or type URL">
+        <div>
+          <input class="button" type="submit" value="Google Search">
+          <input class="button" type="submit" value="I'm Feeling Lucky">
+        </div>
       </form>
     </section>
     <footer>
       <nav>
+        <div id="footer-columns-container">
         <table>
           <tr>
             <td id="left-footer"><a href="#">Advertising</a><a href="#">Business</a><a href="#">About</a></td>
             <td id="right-footer"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Settings</a></td>
           </tr>
         </table>
+      </div>
       </nav>
     </footer>
   </body>
