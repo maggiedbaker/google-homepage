@@ -94,11 +94,29 @@ footer {
 }
 
 #left-footer {
-  text-align: left;
+  float: left;
+  width: 50%;
 }
 
 #right-footer {
-  text-align: right;
+  float: right;
+  width: 50%;
+}
+
+#left-links {
+  float: left;
+}
+
+#right-links {
+  float: right;
+}
+
+#left-footer a, #right-footer a {
+  padding: 10px;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: black;
+  font-size: 13px;
 }
 
 nav {
